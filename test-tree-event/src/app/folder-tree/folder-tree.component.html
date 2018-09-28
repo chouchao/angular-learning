@@ -1,6 +1,0 @@
-<ul>
-  <li (click)="clickName()">{{data.name}}</li>
-  <li *ngIf="hasChildren()">
-    <app-folder-tree *ngFor="let child of data.children" [data]="child"></app-folder-tree>
-  </li>
-</ul>
